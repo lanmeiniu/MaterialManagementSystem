@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/qm">
+        <file>mms.qm</file>
+    </qresource>
+</RCC>

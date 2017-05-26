@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MaterialStorage</class>
+ <widget class="QWidget" name="MaterialStorage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>461</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:blue;
+
+font: 75 14pt &quot;Aparajita&quot;;</string>
+   </property>
+   <property name="title">
+    <string>Material Storage</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>141</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QPushButton" name="submitpushButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton { background-color: rgb(153, 149, 137); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: black; }
+</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="backpushButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton { background-color: rgb(153, 149, 137); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: black; }
+</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>33</y>
+      <width>441</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="GoodIDlabel">
+         <property name="text">
+          <string>GoodsID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="GoodNamelabel">
+         <property name="text">
+          <string>GoodsName:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Specificationlabel">
+         <property name="text">
+          <string>Specification:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="unitlabel">
+         <property name="text">
+          <string>Unit:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Accountnumberlabel">
+         <property name="text">
+          <string>Account-number:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="operaterlabel">
+         <property name="text">
+          <string>In_Operater:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLineEdit" name="GoodsIDlineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="goodsnamelineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="specificationlineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="unitlineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="accountnumberlineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="operaterlineEdit"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon.png</file>
+        <file>exit.png</file>
+        <file>login.png</file>
+        <file>register.png</file>
+        <file>cpassword.png</file>
+        <file>exit2.png</file>
+        <file>modify.png</file>
+        <file>outbound.png</file>
+        <file>search.png</file>
+        <file>signout.png</file>
+        <file>storage.png</file>
+        <file>delete.png</file>
+        <file>outboundsearch.png</file>
+        <file>cang.png</file>
+        <file>pan.png</file>
+        <file>pandian.png</file>
+        <file>loginbg.png</file>
+        <file>cangchu.png</file>
+        <file>pandianguanli.png</file>
+    </qresource>
+</RCC>
